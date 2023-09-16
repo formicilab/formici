@@ -11,9 +11,12 @@ export const metadata: Metadata = {
 }
 
 
-const TrapFont = localFont({
+const trapFont = localFont({
   src: [
     {
+      path:"../../public/fonts/Trap_v1.1/Trap-Light.otf",
+      style: "normal"
+    },{
       path:"../../public/fonts/Trap_v1.1/Trap-Regular.otf",
       style: "normal"
     },{
@@ -30,6 +33,7 @@ const TrapFont = localFont({
       style: "normal"
     }, {
       path:"../../public/fonts/Trap_v1.1/Trap-Black.otf",
+    
       style: "normal"
     }
   ]}
@@ -42,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={TrapFont.className}>{children}</body>
+      <body className={trapFont.className}>{children}</body>
     </html>
   )
 }
