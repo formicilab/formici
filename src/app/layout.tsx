@@ -14,25 +14,25 @@ export const metadata: Metadata = {
 const trapFont = localFont({
   src: [
     {
-      path:"./Trap_v1.1/Trap-Light.otf",
+      path:"./fonts/Trap_v1.1/Trap-Light.otf",
       style: "normal"
     },{
-      path:"./Trap_v1.1/Trap-Regular.otf",
+      path:"./fonts/Trap_v1.1/Trap-Regular.otf",
       style: "normal"
     },{
-      path:"./Trap_v1.1/Trap-Medium.otf",
+      path:"./fonts/Trap_v1.1/Trap-Medium.otf",
       style: "normal"
     },{
-      path:"./Trap_v1.1/Trap-SemiBold.otf",
+      path:"./fonts/Trap_v1.1/Trap-SemiBold.otf",
       style: "normal"
     },{
-      path:"./Trap_v1.1/Trap-Bold.otf",
+      path:"./fonts/Trap_v1.1/Trap-Bold.otf",
       style: "normal"
     }, {
-      path:"./Trap_v1.1/Trap-ExtraBold.otf",
+      path:"./fonts/Trap_v1.1/Trap-ExtraBold.otf",
       style: "normal"
     }, {
-      path:"./Trap_v1.1/Trap-Black.otf",
+      path:"./fonts/Trap_v1.1/Trap-Black.otf",
     
       style: "normal"
     }
