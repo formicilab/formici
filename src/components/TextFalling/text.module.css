@@ -1,15 +1,16 @@
 .containerBanner {
     position: absolute;
     z-index: 10;
-    bottom: 0;
+    top: 50px;
     color: #969696;
-    font-size: 2rem;
-    font-weight: 600;
     opacity: 0;
   }
 
   .containerBanner h2 {
     color: #108DE8;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
   }
 
   .containerBanner h2 span {
