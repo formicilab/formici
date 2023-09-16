@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Trap";
   src: url("./fonts/Trap_v1.1/Trap-Light.otf") format("opentype");
   src: url("./fonts/Trap_v1.1/Trap-Regular.otf") format("opentype");
@@ -19,4 +19,4 @@
 
 body {
   font-family: "Trap", "Nunito", sans-serif;
-}
+} */
