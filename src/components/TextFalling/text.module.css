@@ -1,0 +1,17 @@
+.containerBanner {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    color: #969696;
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0;
+  }
+
+  .containerBanner h2 {
+    color: #108DE8;
+  }
+
+  .containerBanner h2 span {
+    color: #FF7C4F;
+  }
